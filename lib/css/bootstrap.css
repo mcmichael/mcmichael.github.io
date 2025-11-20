@@ -4444,7 +4444,7 @@ textarea.form-control-lg {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 .card-header:first-child {
-  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+  border: radius 0;
 }
 
 .card-footer {
