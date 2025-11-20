@@ -4447,9 +4447,8 @@ textarea.form-control-lg {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
 }
-
 .card-header:first-child {
-  border: radius 0;
+  border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
 
 .card-footer {
