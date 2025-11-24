@@ -195,7 +195,8 @@
 
 .round-img
 {
-  border-radius: 50%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 body {
