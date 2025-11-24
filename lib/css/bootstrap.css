@@ -4553,6 +4553,11 @@ textarea.form-control-lg {
   }
 }
 
+.card.card-home
+{
+  border-radius: 15px;
+  overflow: hidden;
+}
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
