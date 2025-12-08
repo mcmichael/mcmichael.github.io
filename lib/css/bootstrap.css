@@ -193,12 +193,6 @@
   }
 }
 
-.round-img
-{
-  border-radius: 15px;
-  overflow: hidden;
-}
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -4449,12 +4443,8 @@ textarea.form-control-lg {
   background-color: var(--bs-card-cap-bg);
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
-.card-header {
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
-}
 .card-header:first-child {
-  border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
 .card-footer {
@@ -4553,11 +4543,6 @@ textarea.form-control-lg {
   }
 }
 
-.card.card-home
-{
-  border-radius: 15px;
-  overflow: hidden;
-}
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
