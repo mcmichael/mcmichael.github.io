@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, = initial-scale=1.0" />
+    <!-- Load React from CDN -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <title>My Simple React App</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // Your JSX code here
+        const HelloWorld = () => {
+            return (
+                <div>
+                    <h1>Hello World!</h1>
+                    {/* Add your components here */}
+                </div>
+            );
+        };
+
+        ReactDOM.render(<HelloWorld />, document.getElementById('root'));
+    </script>
+
+    <!-- Load Babel for development only -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</body>
+</html>
